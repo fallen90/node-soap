@@ -1,11 +1,10 @@
 {
-  "name": "soap",
+  "name": "@fallen90/soap",
   "version": "0.31.0",
   "description": "A minimal node SOAP client",
   "engines": {
     "node": ">=4.0.0"
   },
-  "author": "Vinay Pulim <v@pulim.com>",
   "dependencies": {
     "@types/request": "^2.48.1",
     "bluebird": "^3.5.0",
@@ -22,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vpulim/node-soap.git"
+    "url": "https://github.com/fallen90/node-soap.git"
   },
   "main": "./index.js",
   "types": "./lib/soap.d.ts",
