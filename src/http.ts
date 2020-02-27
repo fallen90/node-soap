@@ -83,6 +83,9 @@ export class HttpClient {
       method: method,
       headers: headers,
       followAllRedirects: true,
+      agentOptions: {
+        secureProtocol: 'TLSv1_2_method',
+      }
     };
 
     if (exoptions.forceMTOM || attachments.length > 0) {
